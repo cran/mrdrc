@@ -1,0 +1,16 @@
+## functions
+export(
+
+pnsdrm,
+
+pnsdrm.calc,
+
+pns.plot1
+
+)
+
+
+## S3 methods
+S3method(plot, mrdrc)
+S3method(print, mrdrc)
+
