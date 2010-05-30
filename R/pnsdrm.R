@@ -62,9 +62,9 @@ reference = NULL, level = 0.95, logex = FALSE)
                 }
                 if (identical(substr(fct[[i]]$"name", 1, 3), "LL2"))
                 {
-                    edMat <- drc:::ED(tempFit, respLev, ci = "fls", level = level, display = FALSE)
+                    edMat <- drc:::ED(tempFit, respLev, interval = "fls", level = level, display = FALSE)
                 } else {
-                    edMat <- drc:::ED(tempFit, respLev, ci = "delta", level = level, display = FALSE)[, c(1, 3, 4)]
+                    edMat <- drc:::ED(tempFit, respLev, interval = "delta", level = level, display = FALSE)[, c(1, 3, 4)]
                 }
                 
                 fctList[[i]] <- list(fit = tempFit, 
