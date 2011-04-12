@@ -126,11 +126,11 @@ plot(deguelin.mrr1e)
 #deguelin.mrr2b
 #plot(deguelin.mrr2b)
 
-## Non-parametric approach
-deguelin.mrr3 <- pnsdrm(deguelin$dose, deguelin$r, deguelin$n, type = "binomial",
-model = "non-parametric")
-deguelin.mrr3
-plot(deguelin.mrr3)
+## Non-parametric approach -- currently not available
+#deguelin.mrr3 <- pnsdrm(deguelin$dose, deguelin$r, deguelin$n, type = "binomial",
+#model = "non-parametric")
+#deguelin.mrr3
+#plot(deguelin.mrr3)
 
 
 ## Semi-parametric model with reference level 0.3

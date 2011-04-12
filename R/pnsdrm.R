@@ -40,7 +40,8 @@ reference = NULL, level = 0.95, logex = FALSE)
 #        detach(package:drc)
 #        require(EffectiveDose, quietly = TRUE)
 
-        npdrm(predictor, response, respLev, level)
+##        npdrm(predictor, response, respLev, level)
+        stop("Non-parametric approach currently not available")
     },
     "parametric" = {
 #        fctList <- list()    
